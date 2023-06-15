@@ -1,0 +1,201 @@
+/*importando a fonte*/
+@import url('https://fonts.googleapis.com/css?family=Arapey');
+
+/*informações gerais*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*incluindo a fonte*/
+body{
+    font-family:'Arapey';
+}
+
+header{
+/*display flex para permitir deslocar o conteúdo*/
+    display: flex;
+/*flex-wrap para quebrar o texto*/
+    flex-wrap: wrap;
+/*alinhar os itens ao centro do eixo y*/
+    align-items: center;
+/*alinhar o conteúdo no eixo x*/
+    justify-content: space-evenly;
+/*cor do fundo*/
+    background-color: #D6BD90;
+    padding-left: 60px;
+}
+
+/*configurando o logotipo*/
+.logo{
+    display: flex;
+/*definindo largura e altura*/
+    width: 140px;
+    height: 140px;
+}
+
+/*editando o menu*/
+.menu{
+/*colocando borda*/
+    border-bottom: 1px solid #593D07;
+    border-top: 5px solid #593D07 ;
+/*padding representa o espaço dentro do item*/
+    padding: 10px;
+    width: 700px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*texto do menu*/
+.menutxt{
+/*cor da fonte*/
+    color: #000;
+    display: flex;
+    margin: 10px;
+}
+
+/*propriedades do título*/
+.titulo{
+    font-size: 100px;
+    color: #fff;
+/*definindo uma imagem como fundo do texto*/
+    background-image: url(./Imagens/fundo.png);
+/*formatando a imagem para aparecer completa*/
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*propriedades da imagem*/
+.escultura{
+    max-width: 400px;
+    display: flex;
+}
+
+/*conteúdo pai*/
+.content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*dando as propriedades ao texto*/
+.intro{
+    color: #070706;
+    font-size: 30px;
+/*altura máxima*/
+    max-height: 400px;
+/*largura máxima*/
+    max-width: 800px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #d6bd907e;
+}
+
+/*mais uma caixa*/
+.caixa{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+/*definindo o espaçamento esquerdo e direito dentro do bloco*/
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #75684F;
+}
+
+/*propriedades de mais um texto*/
+.sobre{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #d9d9d92f;
+    max-width: 600px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+/*definindo a largura máxima da imagem*/
+.estatua{
+    max-width: 400px;
+}
+
+/*container pai*/
+.final{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d6bd9079;
+    margin: 60px;
+/*border radius para arredondar as pontas da caixa*/
+    border-radius:0.5vw;
+}
+
+/*conjunto dos textos*/
+.conjunto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    height: 400px;
+    margin: 20px;
+}
+
+/*propriedades de texto */
+.ultimotxt{
+    font-size: 25px;
+    background-color: #d9d9d948;
+}
+
+/*imagem*/
+.cafe{
+    max-width: 400px;
+}
+
+/*configurando o botão que irá redirecionar o usuário a outra página*/
+.botao{
+    font-size: 30px;
+    color: #000;
+    background-color: #75684fa2;
+    border-radius:0.5vw;
+    padding: 10px;
+    margin-left: 60px;
+}
+
+/*container pai do rodapé*/
+.foot{
+    background-color: #D9D9D9;
+    padding: 10px 40px 40px;
+    height: 80px;
+/*definindo o tamanho do topo da margem*/
+    margin-top: 60px;
+}
+
+/*mais edições do rodapé*/
+.rodape{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*definindo as propriedades dos ícones do rodapé*/
+.imgfoot{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 165px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
